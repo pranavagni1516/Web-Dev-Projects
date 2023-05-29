@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.668);
+}
+#wrapper{
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.container{
+    height: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px
+}
+.container h1{
+    text-align: center;
+    margin: 20px 0;
+    margin-bottom: 20px;
+    font-size: 3rem;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card{
+    width: 32%;
+    position: relative;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.card img{
+    height: 100%;
+    width: 100%;
+    filter: grayscale(100%);
+    box-shadow: 0,0,10px,#333;
+    object-fit: cover;
+}
+.card:hover{
+    transform:scale(1.03);
+    filter: drop-shadow(0 0 10px #333);
+    transition: 0.3s;
+}
+.card:hover img{
+    filter: grayscale(0);
+}
+.card:hover figcaption{
+    position: absolute;
+    bottom: 0;
+    left:0;
+    padding: 25px;
+    width: 100%;
+    height: 20%;
+    font-size: medium;
+    font-weight: 500;
+    color: #fff;
+    opacity: 0;
+    border-radius: 0 0 10px 10px;
+    background: rgba(0, 0, 0, 0);
+    transition: 0.3s;
+}
+
+.card:hover figcaption{
+    opacity: 1;
+    transform: scale(1.03);
+}
+
+h1,figcaption{font-family:'Anton';}
