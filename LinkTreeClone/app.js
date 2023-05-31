@@ -16,9 +16,9 @@ async function copyText(e){
 
 shareButton.forEach(shareButton => shareButton.addEventListener('click',copyText))
 
-const shareButton = document.querySelectorAll('.share-button')
-console.log(shareButton)
-async function copyText(e){
+const share1Button = document.querySelectorAll('.share-button')
+console.log(share1Button)
+async function copyText1(e){
     e.preventDefault()
     const link= this.getAttribute('link')
     console.log(link)
@@ -32,4 +32,4 @@ async function copyText(e){
 
 }
 
-shareButton.forEach(shareButton => shareButton.addEventListener('click',copyText))
+share1Button.forEach(share1Button => share1Button.addEventListener('click',copyText))
