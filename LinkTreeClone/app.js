@@ -1,4 +1,4 @@
-const shareButton = document.querySelectorAll('.tile-share-button')
+const shareButton = document.querySelectorAll('.tile-share-button','share-button')
 console.log(shareButton)
 async function copyText(e){
     e.preventDefault()
