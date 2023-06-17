@@ -156,3 +156,111 @@ to {background-position: -100px 0px;background-size:2750px;}
   font-family: 'Source Code Pro', monospace;
   text-transform:uppercase;
 }
+
+
+
+@media screen and (max-width: 480px) {
+
+    .search input {
+        font-size: 16px;
+      }
+    
+      .search button {
+        width: 50px;
+        height: 50px;
+      }
+    
+      .search button img {
+        width: 12px;
+      }
+    .card {
+      max-width: 320px;
+      padding: 30px 25px;
+    }
+  
+    .weather h1 {
+      font-size: 60px;
+    }
+  
+    .weather h2 {
+      font-size: 35px;
+    }
+  
+    .weathericon {
+      margin-top: 20px;
+      width: 130px;
+    }
+  
+    .details {
+      flex-direction: column;
+      margin-top: 30px;
+    }
+  
+    .col {
+      margin-bottom: 20px;
+    }
+  
+    .col img {
+      width: 30px;
+    }
+  
+    .humidity,
+    .wind {
+      font-size: 22px;
+      margin-top: -4px;
+    }
+  
+    .error {
+      font-size: 12px;
+      margin-top: 8px;
+    }
+  }
+  
+  /* Add the following CSS for iPhone SE */
+  @media screen and (max-width: 320px) {
+    .search input {
+        font-size: 14px;
+      }
+    
+      .search button {
+        width: 40px;
+        height: 40px;
+      }
+    
+      .search button img {
+        width: 10px;
+      }
+    .card {
+      padding: 25px;
+    }
+  
+    .weather h1 {
+      font-size: 48px;
+    }
+  
+    .weather h2 {
+      font-size: 30px;
+    }
+  
+    .weathericon {
+      width: 100px;
+    }
+  
+    .details {
+      margin-top: 20px;
+    }
+  
+    .col img {
+      width: 25px;
+    }
+  
+    .humidity,
+    .wind {
+      font-size: 18px;
+    }
+  
+    .error {
+      font-size: 10px;
+      margin-top: 6px;
+    }
+  }
