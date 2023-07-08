@@ -129,7 +129,7 @@ p {
     margin-left: 80px;
 }
 
-.headshot-container {
+.content{
     display: flex;
     align-items: center;
 }
@@ -144,6 +144,7 @@ p {
 .project-container {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 @media only screen and (max-width: 1000px) {
