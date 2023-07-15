@@ -31,6 +31,8 @@ button{
   bottom: 3rem;
   cursor: pointer ;
   display: none;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .game-info{
   color: rgb(255, 255, 255);
